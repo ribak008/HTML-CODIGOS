@@ -1,0 +1,81 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*fuente*/
+.fuente-texto{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Arial Narrow', Arial, sans-serif, 'Arial Narrow', Arial, sans-serif, Geneva, Tahoma, sans-serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*color texto*/
+.texto-blanco{
+    color: rgb(255, 255, 255);
+}
+.texto-color{
+    color: #5F5D9C;
+}
+
+/*posicion*/
+.centrar-texto{
+    text-align: center;
+}
+
+/*paddings*/
+.espacio-arriba{
+    padding-top: 20px;
+}
+.espacio-abajo{
+    padding-bottom: 20px;
+}
+.espacio-izquierda{
+    padding-left:10px ;
+}
+.espacio-derecha{
+    padding-right: 10px;
+}
+.distancia-arriba-1{
+    margin-top: 20px;
+}
+.distancia-arriba-2{
+    margin-top: 40px;
+}
+
+.distancia-abajo-1{
+    margin-bottom: 20px;
+}
+.distancia-abajo-2{
+    margin-bottom: 40px;
+}
+
+/*color fondo*/
+.fondo-negro{
+    background-color: #F4EDCC;
+}
+.fondo-azul{
+    background-color: #6196A6;
+}
+
+/*redondear*/
+.redondear-03rem{
+    border-radius: .3rem;
+}
+
+/*boton*/
+.btnComprar{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Arial Narrow', Arial, sans-serif, 'Arial Narrow', Arial, sans-serif, Geneva, Tahoma, sans-serif, 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    background-color: #5F5D9C;
+    padding: 15px 20px;
+    margin-top: 20px;
+    border-color: #5F5D9C;
+}
+
+.btnComprar:hover{
+    margin-left: 50px;
+    cursor: pointer;
+    background-color: #A4CE95;
+    transition: .2s ease-out;
+
+}
